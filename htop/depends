@@ -1,1 +1,3 @@
 ncurses
+automake make
+autoconf make
