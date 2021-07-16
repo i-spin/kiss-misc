@@ -1,0 +1,3 @@
+perl make
+binutils make
+m4 make
