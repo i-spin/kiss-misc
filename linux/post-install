@@ -1,3 +1,0 @@
-cat <<EOF
-Rename the kernel/System.map (vmlinuz to vmlinuz-VERSION).
-EOF
