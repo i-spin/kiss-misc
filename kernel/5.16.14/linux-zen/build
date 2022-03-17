@@ -1,2 +1,2 @@
 mv vmlinuz /boot
-mv ./* /usr/lib/modules
+mv ./* /usr/lib/
