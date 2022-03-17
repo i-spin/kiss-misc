@@ -1,2 +1,0 @@
-cd generator && go build
-mv booster /usr/local/bin
