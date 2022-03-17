@@ -1,1 +1,3 @@
+curl -LO "https://gist.githubusercontent.com/illiliti/ef9ee781b5c6bf36d9493d99b4a1ffb6/raw/72190cb8ca7fd225f985dd68020d714c0b19dba3/modprobe-kernel-version.patch"
+patch -p1 < modprobe-kernel-version.patch
 make PREFIX=/usr install
