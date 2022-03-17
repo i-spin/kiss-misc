@@ -1,2 +1,0 @@
-mv vmlinuz /boot
-mv ./* /usr/lib/
