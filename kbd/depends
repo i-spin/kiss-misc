@@ -1,3 +1,4 @@
 gettext
 libtool
 automake
+linux-pam
