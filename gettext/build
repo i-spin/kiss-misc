@@ -1,9 +1,0 @@
-cd libtextstyle
-./configure
-make
-make install
-cd ..
-
-./configure
-make
-make install
