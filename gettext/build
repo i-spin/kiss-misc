@@ -4,7 +4,6 @@ make
 make install
 cd ..
 
-./autogen.sh
 ./configure
 make
 make install
