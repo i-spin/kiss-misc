@@ -1,3 +1,9 @@
+cd libtextstyle
+./configure
+make
+make install
+cd ..
+
 ./autogen.sh
 ./configure
 make
