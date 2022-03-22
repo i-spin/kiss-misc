@@ -1,4 +1,2 @@
-mkdir build
-cd build
-cmake -D__LIB=lib ..
+cmake -D__LIB=lib .
 make install
