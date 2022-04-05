@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index de824db..1b51c01 100644
+--- a/Makefile
++++ b/Makefile
+@@ -16,7 +16,7 @@ install:
+ 	install -pDm755 -t ${DESTDIR}/usr/bin src/${MyName}
+ 	install -pDm644 -t ${DESTDIR}/etc/xdg/${MyName}/themes themes/*
+ 	install -pDm644 -t ${DESTDIR}/usr/share/doc/${MyName} doc/*
+-	ln -srf -T ${DESTDIR}/usr/bin/${MyName} ${DESTDIR}/usr/share/doc/${MyName}/"70_SourceCode"
++	ln -sf -T ${DESTDIR}/usr/bin/${MyName} ${DESTDIR}/usr/share/doc/${MyName}/"70_SourceCode"
+ 
+ update:
+ 	rm -f  ${DESTDIR}/usr/bin/${MyName}

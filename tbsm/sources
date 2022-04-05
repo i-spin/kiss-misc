@@ -1,1 +1,3 @@
 git+https://github.com/loh-tar/tbsm.git
+
+patches/remove-r.patch
